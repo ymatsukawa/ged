@@ -41,7 +41,7 @@ var decryptCmd = &cobra.Command{
 			return fmt.Errorf("failed to write file: %w", err)
 		}
 
-		fmt.Println("decrypting...")
+		fmt.Println("Succcess to decrypt.")
 		return nil
 	},
 }

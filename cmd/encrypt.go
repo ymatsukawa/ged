@@ -41,7 +41,7 @@ var encryptCmd = &cobra.Command{
 			return fmt.Errorf("failed to write file: %w", err)
 		}
 
-		fmt.Println("Success fully encrypted")
+		fmt.Println("Success to encrypt.")
 		return nil
 	},
 }
